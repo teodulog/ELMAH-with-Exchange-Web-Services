@@ -1,0 +1,6 @@
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\bin\net-2.0\Debug\Elmah.dll
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\bin\net-2.0\Debug\Elmah.pdb
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\bin\net-2.0\Debug\Elmah.xml
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\src\Solutions\2010\obj\Debug\Elmah.csprojResolveAssemblyReference.cache
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\src\Solutions\2010\obj\Debug\Elmah.dll
+C:\Users\tgonzalez\SkyDrive\Catapult\Resources\Elmah\ELMAH-1.2-sp2-src\src\Solutions\2010\obj\Debug\Elmah.pdb
