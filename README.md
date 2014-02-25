@@ -5,9 +5,6 @@ You can find the NuGet package here:
 
 http://www.nuget.org/packages/elmah.ews/
 
-Source Code:
-https://onedrive.live.com/redir?resid=4D4DABB10F74D307!4878&authkey=!AALjxQZlIyuM2aU&ithint=file%2c.zip
-
 
 The current implementation of ELMAH (v1.2 SP2) can only send email through SMTP, which is not natively supported in Azure. (Probably because it would turn into a huge SPAM engine).
 
