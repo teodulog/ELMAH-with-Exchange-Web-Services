@@ -10,7 +10,7 @@ The current implementation of ELMAH (v1.2 SP2) can only send email through SMTP,
 
 Since ELMAH is included in the project as an HTTP Module I actually had to download & modify the source to handle Exchange Online Web Services to get email working in our Azure Cloud Service. The code is very clean so I only had to modify ErrorMailModule.cs. I added in the appropriate web.config input parameters and then created a new Send method inserting it like so (preserving backwards compatibility):
 
-````
+````C#
 ReportError(Error error)
 {
   ...
@@ -27,7 +27,9 @@ ReportError(Error error)
 
 ....
 }
+````
 
+````xml
 //Sample web.config
 <elmah>
 <errorMail to="WebMaster@sample.com"
@@ -42,7 +44,8 @@ ReportError(Error error)
 ````
 
 The web.config Exchange Version works off of the existing Microsoft.Exchange.WebServices.Data.ExchangeVersion enum (the string equivalent is required):
-````
+
+````C#
 namespace Microsoft.Exchange.WebServices.Data
 {
     public enum ExchangeVersion
